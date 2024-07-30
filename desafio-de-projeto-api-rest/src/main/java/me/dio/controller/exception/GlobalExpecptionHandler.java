@@ -15,12 +15,12 @@ public class GlobalExpecptionHandler {
     private final Logger logger = LoggerFactory.getLogger(GlobalExpecptionHandler.class);
 
     @ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<String> handle(IllegalArgumentException businessException) {
+    public ResponseEntity<String> handleBusinessException(IllegalArgumentException businessException) {
         return new ResponseEntity<>(businessException.getMessage(), HttpStatus.UNPROCESSABLE_ENTITY);
     }
 
     @ExceptionHandler(NoSuchElementException.class)
-    public ResponseEntity<String> handle(NoSuchElementException notFoundException) {
+    public ResponseEntity<String> handleNotFoundException(NoSuchElementException notFoundException) {
         return new ResponseEntity<>("Resource ID not found", HttpStatus.NOT_FOUND);
     }
 

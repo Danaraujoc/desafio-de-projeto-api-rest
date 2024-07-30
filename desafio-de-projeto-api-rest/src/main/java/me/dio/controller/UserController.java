@@ -10,11 +10,11 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("/users")
-public class UserRestController {
+public class UserController {
 
     private final UserService userService;
 
-    public UserRestController(UserService userService){
+    public UserController(UserService userService){
         this.userService = userService;
     }
 

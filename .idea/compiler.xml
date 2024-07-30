@@ -3,9 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="desafio-de-projeto-api-rest.desafio-de-projeto-api-rest.main" target="17" />
-      <module name="desafio-de-projeto-api-rest.desafio-de-projeto-api-rest.main~1" target="17" />
       <module name="desafio-de-projeto-api-rest.desafio-de-projeto-api-rest.test" target="17" />
-      <module name="desafio-de-projeto-api-rest.desafio-de-projeto-api-rest.test~1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
